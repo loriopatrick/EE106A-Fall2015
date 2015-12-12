@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.RobotUI">
+  <grid id="27dc6" binding="root" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="5e208">
+        <constraints border-constraint="South"/>
+        <properties>
+          <dividerLocation value="450"/>
+          <dividerSize value="1"/>
+          <enabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6262" class="javax.swing.JLabel" binding="state">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="1e067" class="javax.swing.JButton" binding="dropButton" default-binding="true">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <text value="Go"/>
+            </properties>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="2c820">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <dividerLocation value="240"/>
+          <dividerSize value="1"/>
+          <enabled value="false"/>
+          <orientation value="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <splitpane id="9b029">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <dividerLocation value="450"/>
+              <dividerSize value="1"/>
+              <enabled value="false"/>
+              <orientation value="1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f900c" class="javax.swing.JLabel" binding="video1">
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="248c" class="javax.swing.JLabel" binding="video2">
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </splitpane>
+          <splitpane id="272ec">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <dividerLocation value="450"/>
+              <dividerSize value="9"/>
+              <enabled value="true"/>
+              <orientation value="1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4346a" class="javax.swing.JLabel" binding="angles">
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="d6d95" class="javax.swing.JLabel">
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="4"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Patrick Lorio, Daisuke Kaneishi"/>
+                </properties>
+              </component>
+            </children>
+          </splitpane>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>

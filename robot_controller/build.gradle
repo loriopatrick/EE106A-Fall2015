@@ -1,0 +1,34 @@
+group 'ee106a.robot'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile files("lib/opencv-300.jar", "lib/opencv-native.jar")
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'org.scream3r:jssc:2.8.0'
+    compile 'net.java.jinput:jinput:2.0.6'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
+buildscript {
+    ext.kotlin_version = '1.0.0-beta-2422'
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+sourceSets {
+    main.java.srcDirs += 'src/camera.controller.main/kotlin'
+}
