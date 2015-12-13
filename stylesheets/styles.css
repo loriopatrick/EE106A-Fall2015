@@ -158,9 +158,9 @@ img {
 }
 
 header {
-  width:270px;
+  width:860px;
   float:left;
-  position:fixed;
+  position:relative;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -224,7 +224,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:860px;
   float:right;
   padding-bottom:50px;
 }
@@ -259,10 +259,6 @@ footer {
     float:none;
     position:static;
     width:auto;
-  }
-
-  header {
-    padding-right:320px;
   }
 
   section {
